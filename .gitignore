@@ -65,8 +65,10 @@ build/
 wp-content/plugins/akismet/
 wp-content/plugins/akismet/**
 wp-content/plugins/akismet/_inc/
+wp-content/plugins/akismet/_inc/*.js
 wp-content/plugins/akismet/_inc/**
 wp-content/plugins/akismet/views/
+wp-content/plugins/akismet/views/*.php
 wp-content/plugins/akismet/views/**
 
 !wp-content/plugins/comic-social-links/
