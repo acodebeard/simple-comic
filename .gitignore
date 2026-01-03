@@ -57,20 +57,25 @@ build/
 # =========================================
 # Plugins: ignore all, allowlist only required
 # =========================================
-wp-content/plugins/*
+#wp-content/plugins/*
 !wp-content/plugins/.gitkeep
 
 !wp-content/plugins/advanced-custom-fields/
 !wp-content/plugins/advanced-custom-fields/**
-
-!wp-content/plugins/akismet/
-!wp-content/plugins/akismet/**
+wp-content/plugins/akismet/
+wp-content/plugins/akismet/**
+wp-content/plugins/akismet/_inc/
+wp-content/plugins/akismet/_inc/**
+wp-content/plugins/akismet/views/
+wp-content/plugins/akismet/views/**
 
 !wp-content/plugins/comic-social-links/
 !wp-content/plugins/comic-social-links/**
 
 !wp-content/plugins/foogallery/
 !wp-content/plugins/foogallery/**
+!wp-content/plugins/foogallery/assets/
+!wp-content/plugins/foogallery/assets/**
 
 !wp-content/plugins/the-events-calendar/
 !wp-content/plugins/the-events-calendar/**
